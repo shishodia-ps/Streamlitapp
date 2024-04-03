@@ -10,7 +10,7 @@ name=st.text_input('Please enter your name:')
 
 
 if name:
-    st.write(f'Hello {name.split(' ')[0]}')
+    st.write(f'Hello {name}') 
     st.divider()
     st.write("Please Enter your data")
     uploaded_file=st.file_uploader('Upload a file:',type=['.txt','.csv','.xlsx'])
