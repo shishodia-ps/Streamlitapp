@@ -29,4 +29,6 @@ if name:
             df=pd.read_excel(uploaded_file)
             st.write(df)
     if uploaded_file:
-        st.write("what do you want to do with this data"+':smile:'*3)
+        st.write("Data Uploaded"+':smile:'*3)
+        st.header('What operations you want to perform')
+        
