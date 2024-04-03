@@ -30,5 +30,5 @@ if name:
             st.write(df)
     if uploaded_file:
         st.write("Data Uploaded"+':smile:'*3)
-        st.header('What operations you want to perform')
+        st.subheader('What operations you want to perform')
         
