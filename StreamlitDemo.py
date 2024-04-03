@@ -31,5 +31,5 @@ if name:
     if uploaded_file:
         st.write("Data Uploaded"+':smile:'*3)
         st.subheader('What operations you want to perform')
-        st.selectbox('Select Options',['Audit Operations','Data Cleaning','Travelling & Expeses Analysis','Anything Else'])
+        st.selectbox('Select Options',['Audit Operations','Data Cleaning','Travelling & Expenses Analysis','Anything Else'])
         
